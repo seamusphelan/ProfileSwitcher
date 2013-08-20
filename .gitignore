@@ -1,17 +1,26 @@
-#Android specific
-bin
-gen
-*.class
-*.apk
-
-
-#Eclipse
-.project
-.classpath
-.settings
-.metadata
-
 # ignore all files ending with ~
 *~ 
 
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Eclipse project files
+.classpath
+.project
+.settings
+.metadata
 
