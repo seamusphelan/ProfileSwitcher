@@ -14,7 +14,7 @@ You should have received a copy of the GNU General Public License
 along with ProfileSwitcher.  If not, see <http://www.gnu.org/licenses/>.
 
 
-App details
+App for changing profiles for CyanogenMod ROMs
 ===========
 This app allows you to setup schedules to switch profiles. This will only work on a ROM that has a profile 
 manager (e.g. CyanogenMod 9 & 10 - see http://cyanogenmod.org). Features also include resetting the profile when headphones are pluged/unplugged and the ability to 
