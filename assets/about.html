@@ -1,0 +1,85 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <style type="text/css">
+     body      { background-color:black;color: white;  }
+     a:link    { color: orange; }
+     a:visited { color: green;  }
+     a:hover   { color: yellow; }
+  </style>
+</head>
+<body>
+
+<b>Author:</b> Seamus Phelan
+<br><b>Thanks:</b>A big thanks to Pawitp and all the CyanogenMod people for CM9 & CM10.
+
+<!-- .............. -->
+<hr/>
+<h3>Usage</h3>
+<b>NB - this will only work on phones that have ProfileManager (e.g. CyanogenMod builds)</b>
+<p>
+Create schedules for when you want your phone to automatically change profiles. To create a schedule, 
+chose "New schedule" in the menu.  Choose the profile you want to switch, the time of day (24 hour 
+clock) and which days of the week.
+<br>
+For example: Imagine you have profiles Work, Home and Night.  You could have the following schedules.
+<ul>
+<li>Work @ 08:00 on Monday, Tuesday, Wednesday, Thursday & Friday
+<li>Home @ 10:30 on Saturday & Sunday
+<li>Home @ 17:30 on Monday, Tuesday, Wednesday, Thursday & Friday
+<li>Night @ 23:30 on Monday, Tuesday, Wednesday, Thursday, Friday, Saturday & Sunday
+</ul>
+
+<p>You can also set timed profiles - similar to the old Nokias :-) for once off occasions. e.g Going 
+to the cinema. Choose "Timed Profile", pick profile Silent for 2 hours.
+
+<!-- .............. -->
+<hr/>
+
+
+<b>Headset plug/unplug reset option.</b>
+<br>Standard behaviour in Android is that plugging in a headset causes the volume 
+settings etc. to switch to what they were the 
+last time a headset was plugged in. Likewise for unplugging a headset.
+If you change a profile (either manually or using this app) and then plug/unplug a 
+headset, the volume settings will be changed (but the active profile will remain the same)
+<br>
+This is reason you may want to have the profile reset after a headset is plugged/unplugged. 
+
+<p>
+<b>Timed profile.</b>
+<br>
+At the end of a timed profile, it will revert to the profile that was active before the 
+timed profile was created. If a scheduled profile change was supposed to happen, before the 
+time profile has finished, it will revert to this profile.
+
+<p>
+<!-- horizontal line-->
+<hr>
+<b>Bugs / funnies / TODO</b>
+<ul>
+<li>Toast are sent every time a profile changes (there is no option to turn this off)
+<li>There is quite a bit of logging happening (this is still an alpha)
+<li>TODO: Be able to create a schedule that switches to a profile for period of time and then reverts back (i.e. an automated timed profile).
+</ul>
+
+<!-- .............. -->
+<hr/>
+<h3>History</h3>
+
+<b>Version 0.2</b><br>
+2012/11/22 
+<ul>
+<li>Minor changes to Timed Profile dialog
+<li>Added icon
+</ul>
+
+
+<b>Version 0.1</b><br>
+2012/08/27
+<ul>
+<li>Initial version
+</ul>
+
+</body>
+</html>

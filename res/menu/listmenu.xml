@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/timed_profile" android:showAsAction="always" android:title="Timed Profile"></item>
+    <item android:id="@+id/about" android:title="About"></item>
+    <item android:id="@+id/test_alarm" android:title="Test in 10 sec"></item>
+    <item android:id="@+id/debug_mode" android:title="Debug mode"></item>
+    <item android:id="@+id/reset_on_headset_plug" android:title="Reset profile on headset plug"></item>
+    <item android:id="@+id/reset_on_headset_unplug" android:title="Reset profile on headset unplug"></item>
+    <item android:id="@+id/New" android:title="New schedule"></item>
+    <item android:id="@+id/manage_profiles" android:title="System settings"></item>
+    <item android:id="@+id/timed_profile" android:title="Timed Profile"></item>
+    
+
+</menu>

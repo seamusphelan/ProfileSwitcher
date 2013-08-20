@@ -1,0 +1,17 @@
+#Android specific
+bin
+gen
+*.class
+*.apk
+
+
+#Eclipse
+.project
+.classpath
+.settings
+.metadata
+
+# ignore all files ending with ~
+*~ 
+
+

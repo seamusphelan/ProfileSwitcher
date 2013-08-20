@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, ProfileSwitcherActivity!</string>
+    <string name="app_name">ProfileSwitcher</string>
+    <string name="menu_delete">Delete schedule</string>
+    <string name="current_profile">Current profile</string>
+    <string name="calculated_current_profile">Calculated profile for now</string>
+    <string name="next_change">Next change</string>
+    <string name="timed_profile">Timed profile</string>
+    
+    <string name="dow_mon">Monday</string>
+    <string name="dow_tue">Tuesday</string>
+    <string name="dow_wed">Wednesday</string>
+    <string name="dow_thu">Thursday</string>
+    <string name="dow_fri">Friday</string>
+    <string name="dow_sat">Saturday</string>
+    <string name="dow_sun">Sunday</string>
+
+    <string name="dow_short_mon">Mon</string>
+    <string name="dow_short_tue">Tue</string>
+    <string name="dow_short_wed">Wed</string>
+    <string name="dow_short_thu">Thu</string>
+    <string name="dow_short_fri">Fri</string>
+    <string name="dow_short_sat">Sat</string>
+    <string name="dow_short_sun">Sun</string>
+    <string name="select_profile">&lt;Select profile></string>
+
+    <string name="about">This is a long paragraph.
+        
+This text uses <b>bold</b> and <i>italics</i> by using inline tags such as <b> within the string file.
+   para lines and more text</b>
+   <br>
+       br1
+   </br>
+    
+   <br>
+       br2
+   </br>
+    
+   
+        
+        four new lines and more text
+        setAdapter(ListAdapter adapter, DialogInterface.OnClickListener listener)
+Set a list of items, which are supplied by the given ListAdapter, to be displayed in the dialog as the content, you will be notified of the selected item via the supplied listener.
+        </string>
+    
+</resources>
